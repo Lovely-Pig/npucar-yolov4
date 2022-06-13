@@ -1,3 +1,5 @@
+git submodule update --init --recursive
+
 pip install -r requirements.txt
 
 wget https://github.com/AlexeyAB/darknet/releases/download/yolov4/yolov4.weights
