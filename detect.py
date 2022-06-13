@@ -260,7 +260,7 @@ def run():
     classes = "data/custom/classes.names"
     output = "output_100"
     batch_size = 1
-    img_size = 416
+    img_size = 512
     n_cpu = 2
     conf_thres = 0.20
     nms_thres = 0.10
