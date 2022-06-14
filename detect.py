@@ -255,10 +255,10 @@ def _create_data_loader(img_path, batch_size, img_size, n_cpu):
 def run():
 
     model = "config/yolov4.cfg"
-    weights = "checkpoints/yolov4-epoch-100.weights"
+    weights = "checkpoints/yolov4-epoch-80.weights"
     images = "data/test"
     classes = "data/custom/classes.names"
-    output = "output_100"
+    output = "output_80"
     batch_size = 1
     img_size = 512
     n_cpu = 2
